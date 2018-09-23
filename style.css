@@ -1,0 +1,184 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+}
+
+.wrapper {
+    width: 96%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.background {
+    background-image: url("img/organicBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 936px;
+}
+
+header {
+    padding: 20px 0;
+}
+
+header img {
+    margin: 0 225px 0 25px;
+    float: left;
+}
+
+header nav {
+    float: left;
+}
+
+header:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+header nav li {
+    list-style-type: none;
+    float: left;
+    margin-right: 90px;
+    margin-top: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.intro h1 {
+    color: #fff;
+    font-size: 52px;
+    font-weight: 100;
+    margin: 60px 0 15px 5px;
+    letter-spacing: 3px;
+    line-height: 1.5cm;
+}
+
+.intro p {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: .7cm;
+}
+
+.about {
+    padding: 50px 0;
+    height: 400px;
+}
+
+.quote-slide {
+    color: #fe992a;
+    font-size: 20px;
+    width: 27%;
+    height: 350px;
+    float: left;
+    border-right: solid 1px #c4c4c4;
+    padding-right: 3%;
+}
+
+.quote-slide blockquote {
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+    line-height: .7cm;
+}
+
+.quotesDown {
+    margin-left: 70px;
+}
+
+.buttons {
+    margin: 50px 0px 50px 200px;
+}
+
+button {
+    background-color: #fe992a;
+    border: none;
+    color: #fff;
+    display: block;
+    float: left;
+    height: 30px;
+    width: 30px;
+}
+
+.rightButton {
+    background-color: #ffba6e;
+}
+
+.description {
+    width: 66%;
+    float: right;
+    padding-left: 2%;
+    line-height: .7cm;
+}
+
+about:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.description h2 {
+    color: #fe992a;
+    font-weight: 100;
+}
+
+.description p {
+    color: #9da3a9;
+}
+
+footer {
+    background-color: #e87976;
+    padding: 30px 0;
+    font-size: 15px;
+    height: 400px;
+}
+
+.address {
+    padding-right: 20%;
+}
+
+footer h3 {
+    margin: 0;
+    color: #ffff;
+    line-height: .7cm;
+}
+
+footer ul {
+    float: left;
+    width: 13%;
+    list-style-type: none;
+    color: #fff;
+    line-height: .2cm;
+}
+
+footer:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+footer li {
+    color: #fff;
+    width: 87%;
+    margin: 20px 0;
+    font-size: 14px;
+    line-height: .2cm;
+}
